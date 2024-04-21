@@ -66,7 +66,7 @@ a:link {
     width: 0;
     white-space: nowrap;
     overflow: hidden;
-    border-right: .15em solid orange; /* The typewriter cursor */
+    border-right: .15em solid orange;
     animation: typing 2.5s steps(27, end) forwards, blink-caret 0s step-end infinite;
   }
   
