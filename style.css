@@ -58,7 +58,9 @@ a:link {
     
     text-decoration: underline;
   }
-  
+  a:visited{
+  color:#EEEEEE;
+  }
  h1 {
     overflow:hidden;
     width: 0;
