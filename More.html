@@ -43,18 +43,18 @@
 }
 @keyframes fallAndExpand {
   0% {
-    transform: translateY(-100%) scale(0); /* Start from above the viewport and scale down */
+    transform: translateY(-100%) scale(0);
   }
   100% {
-    transform: translateY(0) scale(1); /* Move to natural position and scale up */
+    transform: translateY(0) scale(1); 
   }
 }
 img {
   animation: fallAndExpand 2s ease-out forwards;
-  position: absolute; /* Ensure the image is positioned relative to the viewport */
-  top: 50%; /* Center the image vertically */
-  left: 50%; /* Center the image horizontally */
-  transform-origin: center; /* Ensure the scaling starts from the center of the image */
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform-origin: center; 
 }
 
 
